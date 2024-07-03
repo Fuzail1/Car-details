@@ -1,0 +1,93 @@
+.car {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    background-image: url("./IMG_6155.JPG");
+    background-size: cover;
+}
+
+.car h1 {
+    color: aliceblue;
+    padding: 0.60rem;
+    font-size: 1.44rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.car h2 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 750px) {
+    .car {
+        height: 40rem;
+    }
+
+    .car h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .car {
+        height: 30rem;
+    }
+
+    .car h1 {
+        font-size: 1rem;
+    }
+}
+
+.tables {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.tabeles,table thead tr {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.details {
+    display: inline-block;
+    background-color: tan;
+}
+
+.jesko {
+    display: flex;
+    height: 200px;
+    border: 4px solid;
+    float: left;
+    margin: 1px;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    text-align: justify;
+    margin: 1px;
+}
+
+.aventador {
+    height: 250px;
+    float: right;
+}
+
+.lambo {
+    display:inline-block;
+    background-color: chocolate;
+    margin: 1px;
+}
+.svj {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+
+
